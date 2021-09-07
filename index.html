@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link kecdnjs -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css " rel="stylesheet">
+    <!-- link ke swipper -->
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <title>Aldi ramadhan</title>
+</head>
+<body>
+    <!-- header section start -->
+    <header>       
+
+        <a href="#" class="logo">nike</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#featured">featured</a>
+            <a href="#review">review</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+        <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+    <!-- header section end -->
+
+    <main>
+        <!-- home section start -->
+        <section class="home" id="home"> 
+
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content"> <!--ganti jadi sepatu biru -->
+                        <span>sepatu biru nike</span>
+                        <h3>sepatu nike Water</h3>
+                        <p>ini adalah sepatu Nike dengan kualitas yang sangat bagus dengna warna biru yang elegan</p>
+                        <a href="#" class="btn">tambahkan ke keranjang</a>
+                    </div>
+                    <div class="image">
+                        <img src="asset/images/home-shoe-2.png" class="shoe" alt="">
+                        <img src="asset/images/home-text-2.png" class="text" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content"> <!--ganti jadi sepatu biru -->
+                        <span>sepatu merah nike</span>
+                        <h3>sepatu nike Lava</h3>
+                        <p>dengan desain warna merah yang kekinian sepatu ini telah mengikuti jaman sekarang</p>
+                        <a href="#" class="btn">tambahkan ke keranjang</a>
+                    </div>
+                    <div class="image">
+                        <img src="asset/images/home-shoe-1.png" class="shoe" alt="">
+                        <img src="asset/images/home-text-1.png" class="text" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content"> <!--ganti jadi sepatu biru -->
+                        <span>sepatu Kuning nike</span>
+                        <h3>sepatu nike sun</h3>
+                        <p>sepatu yang banyak di cari orang karna motif nya yang sangat unik</p>
+                        <a href="#" class="btn">tambahkan ke keranjang</a>
+                    </div>
+                    <div class="image">
+                        <img src="asset/images/home-shoe-3.png" class="shoe" alt="">
+                        <img src="asset/images/home-text-3.png" class="text" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+            <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+        </section>
+        <!-- home section ends -->
+
+        <!-- services section start -->
+        <section class="service">
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Pengiriman cepat</h3>
+                    <p>kita bekerja sama dengan pihak pengiriman yang ada di indonesia</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-undo"></i>
+                    <h3>pengembalian dalam 10 hari</h3>
+                    <p>jika terjadi kerusakan pada paket yang dikirim maka sebelum 1 minggu bisa di tukar</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-headset"></i>
+                    <h3>24 jam costumer service</h3>
+                    <p>kami selalu melayani anda 24 jam full </p>
+                </div>
+
+            </div>
+        </section>
+        <!-- service section ends -->
+
+        <!-- product section start -->
+        <section class="products" id="products">
+
+            <h1 class="heading"> Produk<span>Sebelumnya</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-4.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike Hitam Ori</h3>
+                        <div class="price">Rp.300.000 <span>Rp.500.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-1.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike Runing</h3>
+                        <div class="price">Rp.569.000 <span>Rp.999.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-2.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike Gaya</h3>
+                        <div class="price">Rp.475.000 <span>Rp.698.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-3.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike White</h3>
+                        <div class="price">Rp.286.000 <span>Rp.475.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-6.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike Blue</h3>
+                        <div class="price">Rp.348.000 <span>Rp.670.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="asset/images/product-5.png" alt="">
+                    <div class="content">
+                        <h3>Sepatu Nike Lava Black</h3>
+                        <div class="price">Rp.225.000 <span>Rp.320.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">Tambahkan ke keranjang</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- product section ends -->
+
+        <!-- featured section stars -->
+
+        <section class="featured" id="featured">
+
+            <h1 class="heading">Produk <span>Kedepannya</span></h1>
+
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="asset/images/f-img-3.1.png" class="featured-image-1" alt="">
+                        <img src="asset/images/f-img-3.2.png" class="featured-image-1" alt="">
+                        <img src="asset/images/f-img-3.3.png" class="featured-image-1" alt="">
+                        <img src="asset/images/f-img-3.4.png" class="featured-image-1" alt="">
+                    </div>
+
+                    <div class="big-image">
+                        <img src="asset/images/f-img-3.1.png" class="big-image-1" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sepatu baru nike sunmax</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rp.200.000 <span>Rp.400.000</span></div>
+                    <a href="#" class="btn">Tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="asset/images/f-img-2.1.png" class="featured-image-2" alt="">
+                        <img src="asset/images/f-img-2.2.png" class="featured-image-2" alt="">
+                        <img src="asset/images/f-img-2.3.png" class="featured-image-2" alt="">
+                        <img src="asset/images/f-img-2.4.png" class="featured-image-2" alt="">
+                    </div>
+
+                    <div class="big-image">
+                        <img src="asset/images/f-img-2.1.png" class="big-image-2" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sepatu baru nike whitemax</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rp.259.000 <span>Rp.449.000</span></div>
+                    <a href="#" class="btn">Tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="asset/images/f-img-1.1.png" class="featured-image-3" alt="">
+                        <img src="asset/images/f-img-1.2.png" class="featured-image-3" alt="">
+                        <img src="asset/images/f-img-1.3.png" class="featured-image-3" alt="">
+                        <img src="asset/images/f-img-1.4.png" class="featured-image-3" alt="">
+                    </div>
+
+                    <div class="big-image">
+                        <img src="asset/images/f-img-1.1.png" class="big-image-3" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sepatu baru nike Redmax</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rp.200.000 <span>Rp.400.000</span></div>
+                    <a href="#" class="btn">Tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- featured section ends -->
+
+        <!-- review section stars -->
+
+        <section class="review" id="review">
+            <h1 class="heading">Review<span>Pelanggan</span></h1>
+                    <div class="box-container">
+                        <div class="box">
+                            
+                                <img src="asset/images/lepani2.png" alt="">
+                                <h3>Lepani Amelia Putri</h3>
+                                <p>Pengiriman yang sangat cepat,dan packing juga rapi sekali</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+
+                        <div class="box">
+                                <img src="asset/images/aldi.jpg" alt="">
+                                <h3>Aldi Ramadhan</h3>
+                                <p>aku ganteng gakk?wkwkkwwkkw</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/novita.jpg" alt="">
+                            <h3>Novitasari</h3>
+                            <p>karna pelayanan nya kurang ramah aku kasih bintang 3 aja hehe</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/abdullah.jpg" alt="">
+                            <h3>Abdullah Muhammad Jibril Al-Fatih</h3>
+                            <p>motif nya keren, aku suka^^</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/rani.jpg" alt="">
+                            <h3>Rani</h3>
+                            <p>Harga sama barang yang di kirim emang work it buat di beli</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/marisa.jpg" alt="">
+                            <h3>Marisa</h3>
+                            <p>done kakak</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/dedes.jpg" alt="">
+                            <h3>Destia Ningsih</h3>
+                            <p>bagus barangnya</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/firda.jpg" alt="">
+                            <h3>Firda Fauziah</h3>
+                            <p>mantap!!!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/fatimah.jpg" alt="">
+                            <h3>Fatimah</h3>
+                            <p>okeh sesuai pesenan</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/lidia.jpg" alt="">
+                            <h3>Lidia</h3>
+                            <p>barangnya sudah sampai kakak</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/mario.jpg" alt="">
+                            <h3>Mario</h3>
+                            <p>good!!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/ilham.jpg" alt="">
+                            <h3>Ilham</h3>
+                            <p>mantap!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/rosidah.png" alt="">
+                            <h3>Rosidah</h3>
+                            <p>makasih:)barangnya sesuai sama gambar</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/iqbal.png" alt="">
+                            <h3>Iqbal</h3>
+                            <p>no komen!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/tiara.jpg" alt="">
+                            <h3>Tiara</h3>
+                            <p>jossss lahhh</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/radit.jpg" alt="">
+                            <h3>Raditya</h3>
+                            <p>alus eyy barangna</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/rachel.jpg" alt="">
+                            <h3>Rachel</h3>
+                            <p>muantul!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/nanda.jpg" alt="">
+                            <h3>Nanda</h3>
+                            <p>gaskeun!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/ryan.png" alt="">
+                            <h3>Ryan</h3>
+                            <p>good game.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <img src="asset/images/egi.jpg" alt="">
+                            <h3>Egi</h3>
+                            <p>sip lah</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- review section ends -->
+
+        <!-- news letter section starts -->
+
+        <section class="newsletter">
+
+            <div class="content">
+                <h3>bergabung bersama kami</h3>
+                <p>Pejuang Rindu</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email" class="box">
+                    <input type="submit" value="send" class="btn">
+                </form>
+            </div>
+
+        </section>
+
+        <!-- news letter section starts -->
+
+    </main>
+
+
+    <!-- footer section stars -->
+    <footer>
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>our stores</h3>
+                    <a href="#">india</a>
+                    <a href="#">USA</a>
+                    <a href="#">Japan</a>
+                    <a href="#">indonesia</a>
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">products</a>
+                    <a href="#">featured</a>
+                    <a href="#">review</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#">My account</a>
+                    <a href="#">My favorite</a>
+                    <a href="#">My orders</a>
+                    <a href="#">Join</a>
+                </div>
+
+                <div class="box">
+                    <h3>Follow us</h3>
+                    <a href="https://web.facebook.com/profile.php?id=100056357040683">Facebook</a>
+                    <a href="https://www.instagram.com/aldiramadhan271/">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="https://github.com/Aldiramadhan271">github</a>
+                </div>
+
+                <div class="credit"> created by <span>Aldi Ramadhan</span> | all rights reserved!</div>
+
+            </div>
+
+        </section>
+
+    </footer>
+    <!-- footer section ends -->
+
+
+    <!-- script js -->
+    <script src="asset/js/main.js"></script>
+
+    <!-- script swipper -->
+    <script type="text/javascript" src="asset/js/swiper-bundle.min.js"></script>
+</body>
+</html>
